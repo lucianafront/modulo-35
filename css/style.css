@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding-top: 22px;
+    padding-bottom: 32px;
+}
+
+h6 {
+    font-size: 14px;
+    font-family: "Arial";
+    color: rgb(215, 0, 43);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: right;
+}
+
+.card{
+    border: none !important;
+    padding-top: 21px;
+}
+
+.card h2 {
+    margin-bottom: 15px !important;
+    font-size: 23px;
+    font-family: "Myriad Pro";
+    color: rgb(38, 38, 38);
+    line-height: 1.2;
+    text-align: left;
+    height: 21px;
+    z-index: 13;
+  }
+
+
+  
+
+  .card p {
+    font-size: 14px;
+    font-family: "Arial";
+    color: rgb(102, 102, 102);
+    line-height: 1.45;
+    text-align: left;
+    width: 287;
+    height: 75px;
+    z-index: 19;
+  }
+
+
+  .Saiba_mais {
+    font-size: 13px;
+    font-family: "Arial";
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+    height: 11px;
+    z-index: 25;
+  }
+  
+
+  .card a:hover {
+    color: rgb(220, 0, 45);
+  }
+  
+
+  .card-body a img{
+    width: 250px;
+    height: 140px;
+  }
+  
+  
+
+
+.carrosel {
+    color: #fff;
+    text-align: left;
+    background-color: #ce0029;
+}
+
+.carrosel h2 {
+    padding-bottom: 0px;
+    padding-top: 47px;
+    padding-left: 29px;
+    color: #e9c5c8;
+    font-size: 36pt;
+    font-family: "Myriad Pro";
+    line-height: 1.1;
+    text-shadow: 1.414px 1.414px 2px rgba(0, 0, 0, 0.4);
+    width: 243px;
+    padding-bottom: 16px !important;
+}
+
+.carrosel p {
+    font-size: 15px;
+    padding-left: 28px;
+    font-family: "Arial";
+    color: rgba(255, 255, 255, 0.902);
+    line-height: 1.4;
+    text-align: left;
+    text-shadow: 0.707px 0.707px 2px rgba(0, 0, 0, 0.4);
+    width: 328px;
+    height: 101px;
+}
+
+.carrosel img {
+    width: 596px;
+    height: 312px;
+}
+
+.menu ul {
+    padding-top: 71px;
+}
+
+ul {
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+
+ul li {
+    margin: auto calc(34px / 2);
+    display: inline;
+}
+
+ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #dc002d;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 3px;
+}
+
+ul li a:hover {
+    color: gray;
+    border-bottom: #444 solid 3px;
+}
+
+.fale-conosco {
+    color: #fff;
+    background-color: red;
+}
+
+.contato p:first {
+    padding-top: 13px;
+}
+
+.contato p {
+    margin-bottom: 0px;
+    font-size: 12pt;
+    padding-left: 104px;
+    padding-bottom: 10px;
+}
+
+footer {
+    padding-top: 25px;
+}
+
+.localizacao img {
+    float: left;
+}
+
+.localizacao p {
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb(127, 127, 127);
+    line-height: 1.2;
+    text-align: right;
+    height: 12px;
+}
